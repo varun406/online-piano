@@ -1,0 +1,147 @@
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right,#008B8B ,#00CED1 );
+}
+
+h1{
+  font-family:  'Ubuntu', sans-serif;
+  font-size: 5rem;
+  color: #eeeeee;
+}
+
+h5{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pianoBackSide {
+  padding:1px 10px;
+  margin-top: 15%;
+  height: 370px;
+  width: 1450px;
+  background-color:black;
+  border-radius:  15px 15px 20px 20px;
+}
+
+.piano {
+  margin: 25px 10px 0;
+  position: relative;
+}
+
+.whiteButton {
+  width: 65px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 0  0 7px 7px;
+  margin-left: -4px;
+  outline:none;
+}
+
+.whiteShadow{
+  box-shadow: inset 15px 0 #708090;
+}
+
+.blackButton{
+  width: 35px;
+  height: 205px;
+  border: 4px solid black;
+  border-radius: 0 0 7px 7px;
+  background-image: linear-gradient(#000000, #708090);
+  position: absolute;
+  outline:none;
+  box-shadow: inset -8px 10px   #000000, inset 4px 0 gray, 13px 1px 2px #708090 , inset 0 -9px #000000  ;
+  
+}
+
+.blackPress{
+  background-image: linear-gradient(#000000, #2F4F4F);
+}
+
+.blackShadow{
+  box-shadow:  6px 1px 2px #708090 , inset 2px 0 gray , inset 0 -3px #000000, inset -3px 0 #000000 ; /* Shadow ,  Shining , LowerShadow , SideShadow*/ 
+}
+
+.Ch3{
+  margin-left: -20px;
+}
+
+.Dh3{
+  margin-left: -20px;
+}
+
+.Fh3{
+  margin-left: -20px;
+}
+
+.Gh3{
+  margin-left: -20px;
+}
+
+.Ah3{
+  margin-left: -20px;
+}
+
+.Ch4{
+  margin-left: -20px;
+}
+
+.Dh4{
+  margin-left: -20px;
+}
+
+.Fh4{
+  margin-left: -20px;
+}
+
+.Gh4{
+  margin-left: -20px;
+}
+
+.Ah4{
+  margin-left: -20px;
+}
+
+.Ch5{
+  margin-left: -20px;
+}
+
+.Dh5{
+  margin-left: -20px;
+}
+
+.Fh5{
+  margin-left: -20px;
+}
+
+.Gh5{
+  margin-left: -20px;
+}
+
+.Ah5{
+  margin-left: -20px;
+}
+
+.Ch6{
+  margin-left: -20px;
+}
+
+.Dh6{
+  margin-left: -20px;
+}
+
+.Fh6{
+  margin-left: -20px;
+}
+
+.Gh6{
+  margin-left: -20px;
+}
+
+.Ah6{
+  margin-left: -20px;
+}
+
+
+
