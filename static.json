@@ -1,7 +1,14 @@
 {
-  "root": "public",
+  "root": "dist/",
   "clean_urls": "true",
   "https_only": "true",
+  "encoding": "US-ASCII",
+  "canonical_host": "${HOST}",
+  "logging": {
+    "access": false,
+    "error": "warn"
+  },
+  "error_page": "error.html",
   "headers": {
     "/**": {
       "Access-Control-Allow-Origin": "*"
